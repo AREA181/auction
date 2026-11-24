@@ -6,20 +6,404 @@
 <meta name="description" content="The ART FORT 321 Auction House. Browse original art by Monkism and visit eBay for bids and checkout.">
 <meta name="theme-color" content="#231716">
 <title>ART FORT 321 · The Auction House</title>
+<script>
+  try {
+    if (localStorage.getItem('art-fort-auction-theme') === 'night') {
+      document.documentElement.dataset.theme = 'night';
+    }
+  } catch { /* The toggle still works if the browser blocks storage. */ }
+</script>
 
-<!-- LISTINGS CONFIGURATION. Edit the JSON below in a plain-text editor. See START HERE.txt.
-     The included active listings were checked on eBay on Nov 23, 2026 around 3:01 AM PST. -->
-<script id="auction-listings" type="application/json">
+<!-- LISTINGS CONFIGURATION. Edit this JSON array and data-checked-at. See START HERE.txt. -->
+<script id="auction-listings" type="application/json" data-checked-at="2026-11-23T20:17:00-08:00">
 [
   {
     "title": "Trump Bible Art",
     "category": "Mixed media",
     "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147689600310",
+    "ebayUrl": "https://www.ebay.com/itm/147694833037",
+    "image": "https://i.ebayimg.com/images/g/yc4AAeSwREhrBLyN/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:24:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694839840",
+    "image": "https://i.ebayimg.com/images/g/y08AAeSwaXZrBL7D/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:34:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694300183",
     "image": "https://i.ebayimg.com/images/g/WQIAAeSwrRRqvzUD/s-l300.webp",
     "imageAlt": "Monkism’s mixed-media artwork on a printed page",
     "status": "active",
-    "endsAt": "2026-11-23T13:32:00Z",
+    "endsAt": "2026-11-30T13:36:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694843620",
+    "image": "https://i.ebayimg.com/images/g/0wAAAeSwkTprBL-D/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:38:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694858525",
+    "image": "https://i.ebayimg.com/images/g/-u4AAeSwaoFrBMNo/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:53:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694792049",
+    "image": "https://i.ebayimg.com/images/g/YYsAAeSwphlrBLPt/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T21:48:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694796434",
+    "image": "https://i.ebayimg.com/images/g/jH4AAeSwWqprBLTL/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T21:53:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694786633",
+    "image": "https://i.ebayimg.com/images/g/gQQAAeSwREhrBLMJ/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T21:44:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694855249",
+    "image": "https://i.ebayimg.com/images/g/AgUAAeSw3YprBMKJ/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:50:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694862650",
+    "image": "https://i.ebayimg.com/images/g/7hQAAeSweMprBMQn/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:56:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694865632",
+    "image": "https://i.ebayimg.com/images/g/I~cAAeSwDGRrBMTd/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T23:01:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694847509",
+    "image": "https://i.ebayimg.com/images/g/6l0AAeSw8k1rBMBt/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:41:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694584233",
+    "image": "https://i.ebayimg.com/images/g/g8AAAeSwT5hrBIBC/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T18:08:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694830400",
+    "image": "https://i.ebayimg.com/images/g/qs8AAeSwTOdrBLs~/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:21:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694834576",
+    "image": "https://i.ebayimg.com/images/g/3osAAeSwo-NrBL0v/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:27:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694802421",
+    "image": "https://i.ebayimg.com/images/g/myMAAeSwvqZrBLYK/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T21:58:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694821711",
+    "image": "https://i.ebayimg.com/images/g/uXoAAeSwEu1rBLkB/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:11:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694825475",
+    "image": "https://i.ebayimg.com/images/g/uFUAAeSwOWNrBLo4/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:15:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694837489",
+    "image": "https://i.ebayimg.com/images/g/CJ0AAeSwdXprBL3q/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:30:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694811898",
+    "image": "https://i.ebayimg.com/images/g/vTsAAeSwoUFrBLe5/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T22:05:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694512985",
+    "image": "https://i.ebayimg.com/images/g/YyUAAeSwtWdrBG7m/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T16:56:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "RoboCope — Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694576410",
+    "image": "https://i.ebayimg.com/images/g/bZoAAeSw6V5rBH5M/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T18:01:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694492684",
+    "image": "https://i.ebayimg.com/images/g/NIoAAeSwHbhrBGqb/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T16:36:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694378361",
+    "image": "https://i.ebayimg.com/images/g/ueMAAeSwKMZrBFAL/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T14:43:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694478876",
+    "image": "https://i.ebayimg.com/images/g/GVAAAeSwc9drBGgJ/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T16:25:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694503185",
+    "image": "https://i.ebayimg.com/images/g/8SwAAeSwNLxrBGzn/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T16:46:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147690289086",
+    "image": "https://i.ebayimg.com/images/g/z9EAAeSwqLprANzs/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-27T23:55:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694393508",
+    "image": "https://i.ebayimg.com/images/g/rTAAAeSww4BrBFPr/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-28T14:59:00Z",
     "endsApproximate": true,
     "price": 24.99,
     "currency": "USD",
@@ -43,53 +427,11 @@
     "title": "Trump Bible Art",
     "category": "Mixed media",
     "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147689619943",
-    "image": "https://i.ebayimg.com/images/g/ZvcAAeSw-ftqvy~0/s-l300.webp",
-    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
-    "status": "active",
-    "endsAt": "2026-11-23T13:45:00Z",
-    "endsApproximate": true,
-    "price": 24.99,
-    "currency": "USD",
-    "priceLabel": "Starting bid"
-  },
-  {
-    "title": "Trump Bible Art",
-    "category": "Mixed media",
-    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
     "ebayUrl": "https://www.ebay.com/itm/147690260703",
     "image": "https://i.ebayimg.com/images/g/D2sAAeSwRsprAM2U/s-l300.webp",
     "imageAlt": "Monkism’s mixed-media artwork on a printed page",
     "status": "active",
     "endsAt": "2026-11-27T23:26:00Z",
-    "endsApproximate": true,
-    "price": 24.99,
-    "currency": "USD",
-    "priceLabel": "Starting bid"
-  },
-  {
-    "title": "Trump Bible Art",
-    "category": "Mixed media",
-    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147689688486",
-    "image": "https://i.ebayimg.com/images/g/8ZgAAeSwVIxqwa5a/s-l300.webp",
-    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
-    "status": "active",
-    "endsAt": "2026-11-27T14:18:00Z",
-    "endsApproximate": true,
-    "price": 24.99,
-    "currency": "USD",
-    "priceLabel": "Starting bid"
-  },
-  {
-    "title": "Trump Bible Art",
-    "category": "Mixed media",
-    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147690289086",
-    "image": "https://i.ebayimg.com/images/g/z9EAAeSwqLprANzs/s-l300.webp",
-    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
-    "status": "active",
-    "endsAt": "2026-11-27T23:55:00Z",
     "endsApproximate": true,
     "price": 24.99,
     "currency": "USD",
@@ -127,25 +469,11 @@
     "title": "Trump Bible Art",
     "category": "Mixed media",
     "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147689708483",
-    "image": "https://i.ebayimg.com/images/g/CNUAAeSwkXNqwanp/s-l300.webp",
+    "ebayUrl": "https://www.ebay.com/itm/147689688486",
+    "image": "https://i.ebayimg.com/images/g/8ZgAAeSwVIxqwa5a/s-l300.webp",
     "imageAlt": "Monkism’s mixed-media artwork on a printed page",
     "status": "active",
-    "endsAt": "2026-11-23T14:34:00Z",
-    "endsApproximate": true,
-    "price": 24.99,
-    "currency": "USD",
-    "priceLabel": "Starting bid"
-  },
-  {
-    "title": "Trump Bible Art",
-    "category": "Mixed media",
-    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
-    "ebayUrl": "https://www.ebay.com/itm/147689714459",
-    "image": "https://i.ebayimg.com/images/g/dJIAAeSwIIRrAMGK/s-l300.webp",
-    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
-    "status": "active",
-    "endsAt": "2026-11-23T14:40:00Z",
+    "endsAt": "2026-11-27T14:18:00Z",
     "endsApproximate": true,
     "price": 24.99,
     "currency": "USD",
@@ -169,11 +497,95 @@
     "title": "Trump Bible Art",
     "category": "Mixed media",
     "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694376372",
+    "image": "https://i.ebayimg.com/images/g/dJIAAeSwIIRrAMGK/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-30T14:40:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147694309806",
+    "image": "https://i.ebayimg.com/images/g/ZvcAAeSw-ftqvy~0/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "active",
+    "endsAt": "2026-11-30T13:45:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
     "ebayUrl": "https://www.ebay.com/itm/147689678127",
     "image": "https://i.ebayimg.com/images/g/tK4AAeSwUPVqvykY/s-l300.webp",
     "imageAlt": "Monkism’s mixed-media artwork on a printed page",
     "status": "active",
     "endsAt": "2026-11-27T14:05:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147689600310",
+    "image": "https://i.ebayimg.com/images/g/WQIAAeSwrRRqvzUD/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "ended",
+    "endsAt": "2026-11-23T13:32:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147689619943",
+    "image": "https://i.ebayimg.com/images/g/ZvcAAeSw-ftqvy~0/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "ended",
+    "endsAt": "2026-11-23T13:45:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147689708483",
+    "image": "https://i.ebayimg.com/images/g/CNUAAeSwkXNqwanp/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "ended",
+    "endsAt": "2026-11-23T14:34:00Z",
+    "endsApproximate": true,
+    "price": 24.99,
+    "currency": "USD",
+    "priceLabel": "Starting bid"
+  },
+  {
+    "title": "Trump Bible Art",
+    "category": "Mixed media",
+    "description": "Ink and crayon on a Trump Bible page · 6 × 9 in",
+    "ebayUrl": "https://www.ebay.com/itm/147689714459",
+    "image": "https://i.ebayimg.com/images/g/dJIAAeSwIIRrAMGK/s-l300.webp",
+    "imageAlt": "Monkism’s mixed-media artwork on a printed page",
+    "status": "ended",
+    "endsAt": "2026-11-23T14:40:00Z",
     "endsApproximate": true,
     "price": 24.99,
     "currency": "USD",
@@ -208,18 +620,65 @@
     --red: #a03730;
     --teal: #204941;
     --muted: #665348;
+    --page: var(--paper);
+    --text: var(--ink);
+    --rule: var(--ink);
+    --focus: #127f75;
+    --channel-bg: #e9ddc5;
+    --channel-hover: #f2e9d6;
+    --channel-selected: var(--wine);
+    --channel-selected-text: #fffaf0;
+    --channel-number: #864026;
+    --card-border: #ad9a80;
+    --card-shadow: #dbccb2;
+    --select-border: #9a8574;
+    --select-chevron: #493528;
+    --status-bg: #e7dcc8;
+    --status-text: #4d382a;
+    --active-bg: #dbe7d5;
+    --active-text: #204941;
+    --ending-bg: #ffe1ae;
+    --ending-text: #71330d;
+    --guide-link: var(--wine);
+    --guide-link-hover: #f4e4d1;
     --mono: 'Courier New', Courier, monospace;
     --display: Impact, Haettenschweiler, 'Arial Narrow', 'Arial Black', sans-serif;
     --bars: linear-gradient(90deg, #ffcf49 0 14.28%, #f08d46 14.28% 28.56%, #cc474a 28.56% 42.84%, #9a477c 42.84% 57.12%, #42608a 57.12% 71.4%, #55a8a8 71.4% 85.68%, #7b9b61 85.68%);
   }
+  :root[data-theme="night"] {
+    color-scheme: dark;
+    --page: #1d171a;
+    --text: #f5eddf;
+    --sheet: #292026;
+    --rule: #81646c;
+    --focus: #ffcd89;
+    --teal: #a9d0bf;
+    --muted: #d2bfb4;
+    --channel-bg: #32262d;
+    --channel-hover: #48343d;
+    --channel-selected: #653641;
+    --channel-number: #f4b88a;
+    --card-border: #755c61;
+    --card-shadow: #130e11;
+    --select-border: #97757d;
+    --select-chevron: #eccbb9;
+    --status-bg: #41343c;
+    --status-text: #e9d6ca;
+    --active-bg: #2a4239;
+    --active-text: #c6e8d2;
+    --ending-bg: #543623;
+    --ending-text: #ffd7a2;
+    --guide-link: #ffbe96;
+    --guide-link-hover: #4b3238;
+  }
   *, *::before, *::after { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
-  body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.55 'Trebuchet MS', Arial, sans-serif; }
+  body { margin: 0; background: var(--page); color: var(--text); font: 1rem/1.55 'Trebuchet MS', Arial, sans-serif; }
   h1, h2, h3, p, figure { margin: 0; }
   a { color: inherit; text-underline-offset: .23em; }
   button, select { font: inherit; color: inherit; }
   [hidden] { display: none !important; }
-  :focus-visible { outline: 3px solid #127f75; outline-offset: 4px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
   .dark :focus-visible { outline-color: #ffd381; }
   .shell { width: min(100% - 64px, 1180px); margin-inline: auto; }
   .mono { font: 700 .875rem/1.3 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
@@ -228,12 +687,17 @@
   .dark { color: var(--paper); }
   .masthead { background: #211716; border-bottom: 1px solid #745549; }
   .masthead .shell, .footer .shell { display: flex; justify-content: space-between; align-items: center; gap: .65rem 1.5rem; min-height: 66px; }
+  .masthead .shell { display: grid; grid-template-columns: auto 1fr auto; }
   .station { display: flex; align-items: center; gap: .65rem; font: 900 1rem/1.2 'Arial Black', Arial, sans-serif; letter-spacing: .055em; }
   .station-mark { display: inline-grid; place-items: center; min-width: 43px; min-height: 30px; padding: 0 4px; border: 1px solid #cb754d; border-radius: 3px; color: #ffae7a; font: 700 1rem/1 var(--mono); }
-  .masthead nav { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem clamp(.8rem, 2.6vw, 2rem); }
+  .masthead nav { display: flex; justify-content: flex-end; flex-wrap: wrap; align-items: center; gap: .4rem clamp(.8rem, 2.6vw, 2rem); }
   .masthead nav a { text-decoration: none; }
   .masthead nav a:hover { text-decoration: underline; }
-  .masthead nav a:last-child { color: #ffae7a; }
+  .masthead .seller-link { color: #ffae7a; }
+  .theme-toggle { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: .35rem .6rem; border: 1px solid #a97c63; border-radius: 3px; background: #332320; color: #f5efdf; cursor: pointer; white-space: nowrap; }
+  .theme-toggle:hover { background: #51362e; }
+  .theme-toggle[aria-pressed="true"] { border-color: #e2a679; background: #61412f; color: #ffdbaf; }
+  .theme-toggle span { color: #ffc485; font: 1.15rem/1 system-ui, sans-serif; }
   .hero { position: relative; isolation: isolate; overflow: hidden; background: radial-gradient(ellipse at 78% 40%, #59382b 0, transparent 50%), linear-gradient(125deg, #402124, #221918 76%); }
   .hero::before { content: ''; position: absolute; inset: 0; z-index: -1; opacity: .24; background: repeating-linear-gradient(0deg, transparent 0 3px, #120e0f 4px 5px); pointer-events: none; }
   .hero-grid { display: grid; grid-template-columns: minmax(0, .94fr) minmax(0, 1.06fr); align-items: center; gap: clamp(1.5rem, 5vw, 5.25rem); padding-block: clamp(2.6rem, 5vw, 4.75rem); }
@@ -266,22 +730,23 @@
   .speaker { width: 82%; height: clamp(25px, 5vw, 57px); background: repeating-linear-gradient(0deg, #5d4a3b 0 2px, transparent 2px 6px); border-radius: 4px; opacity: .85; }
   .spectrum { height: 9px; background: var(--bars); }
   .guide { padding-block: clamp(1.8rem, 4vw, 3.1rem) clamp(2.6rem, 6vw, 5rem); scroll-margin-top: .8rem; }
-  .guide-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; padding-bottom: 1rem; border-bottom: 2px solid var(--ink); }
+  .guide-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; padding-bottom: 1rem; border-bottom: 2px solid var(--rule); }
   .guide-heading h2 { font: 900 clamp(2.25rem, 4.8vw, 4rem)/.97 var(--display); letter-spacing: .025em; text-transform: uppercase; }
   .guide-heading .mono { color: var(--teal); text-align: right; }
-  .channels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin-top: 1px; background: var(--ink); border: 1px solid var(--ink); }
-  .channel { min-height: 51px; cursor: pointer; border: 0; background: #e9ddc5; padding: .5rem .25rem; }
-  .channel:hover { background: #f2e9d6; }
-  .channel[aria-pressed="true"] { background: var(--wine); color: var(--sheet); }
+  .channels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin-top: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .channel { min-height: 51px; cursor: pointer; border: 0; background: var(--channel-bg); padding: .5rem .25rem; }
+  .channel:hover { background: var(--channel-hover); }
+  .channel[aria-pressed="true"] { background: var(--channel-selected); color: var(--channel-selected-text); }
   .channel[aria-pressed="true"] .channel-number { color: #ffc485; }
-  .channel-number { color: #864026; margin-right: .4em; }
+  .channel-number { color: var(--channel-number); margin-right: .4em; }
   .guide-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.25rem; padding-block: .9rem; }
-  .count { color: var(--muted); }
+  .count, .lineup-checked { color: var(--muted); }
+  .lineup-checked { margin-top: .15rem; font-size: .9rem; }
   .selects { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .9rem; }
   .selects label { display: flex; align-items: center; gap: .45rem; }
-  select { appearance: none; position: relative; min-height: 44px; max-width: min(230px, 58vw); padding: .4rem 2rem .4rem .6rem; cursor: pointer; border: 1px solid #9a8574; border-radius: 3px; background: linear-gradient(45deg, transparent 48%, #493528 49% 67%, transparent 68%) right 16px center / 6px 6px no-repeat, linear-gradient(-45deg, transparent 48%, #493528 49% 67%, transparent 68%) right 10px center / 6px 6px no-repeat, var(--sheet); }
+  select { appearance: none; position: relative; min-height: 44px; max-width: min(230px, 58vw); padding: .4rem 2rem .4rem .6rem; cursor: pointer; border: 1px solid var(--select-border); border-radius: 3px; background: linear-gradient(45deg, transparent 48%, var(--select-chevron) 49% 67%, transparent 68%) right 16px center / 6px 6px no-repeat, linear-gradient(-45deg, transparent 48%, var(--select-chevron) 49% 67%, transparent 68%) right 10px center / 6px 6px no-repeat, var(--sheet); }
   .program-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-  .program { display: grid; grid-template-rows: auto 1fr; min-width: 0; overflow: hidden; border: 1px solid #ad9a80; border-radius: 4px; background: var(--sheet); box-shadow: 3px 3px 0 #dbccb2; }
+  .program { display: grid; grid-template-rows: auto 1fr; min-width: 0; overflow: hidden; border: 1px solid var(--card-border); border-radius: 4px; background: var(--sheet); box-shadow: 3px 3px 0 var(--card-shadow); }
   .program.is-single { grid-column: 1 / -1; grid-template: auto / minmax(135px, 240px) minmax(0, 1fr); }
   .artwork { display: grid; place-items: center; min-width: 0; min-height: 155px; aspect-ratio: 4 / 3; overflow: hidden; background: #282423; }
   .program.is-single .artwork { height: 100%; aspect-ratio: auto; }
@@ -291,27 +756,33 @@
   .art-fallback span::after { content: ''; width: 100%; height: 4px; background: var(--bars); }
   .program-body { display: flex; flex-direction: column; gap: .7rem; min-width: 0; padding: clamp(.9rem, 2vw, 1.35rem); }
   .program-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .45rem; color: var(--teal); overflow-wrap: anywhere; }
-  .status { padding: .2rem .38rem; background: #e7dcc8; color: #4d382a; }
-  .status[data-state="active"] { background: #dbe7d5; color: #204941; }
-  .status[data-state="ending"] { background: #ffe1ae; color: #71330d; }
+  .status { padding: .2rem .38rem; background: var(--status-bg); color: var(--status-text); }
+  .status[data-state="active"] { background: var(--active-bg); color: var(--active-text); }
+  .status[data-state="ending"] { background: var(--ending-bg); color: var(--ending-text); }
   .program h3 { font-size: clamp(1.2rem, 2.4vw, 1.65rem); line-height: 1.18; overflow-wrap: anywhere; }
   .program-copy { color: var(--muted); overflow-wrap: anywhere; }
   .program-item { color: var(--muted); font-size: .8rem; }
   .program-facts { display: flex; flex-wrap: wrap; gap: .45rem 1.25rem; margin-top: auto; padding-top: .15rem; }
   .fact { display: flex; flex-direction: column; gap: .1rem; }
   .fact .mono { color: var(--muted); }
-  .button-outline { align-self: flex-start; color: var(--wine); }
-  .button-outline:hover { background: #f4e4d1; }
-  .empty { padding: clamp(1.2rem, 4vw, 2.5rem); border: 1px solid #ad9a80; background: var(--sheet); }
+  .button-outline { align-self: flex-start; color: var(--guide-link); }
+  .button-outline:hover { background: var(--guide-link-hover); }
+  .empty { padding: clamp(1.2rem, 4vw, 2.5rem); border: 1px solid var(--card-border); background: var(--sheet); }
   .empty h3 { font-size: 1.4rem; }
   .empty p { margin-block: .22rem .85rem; color: var(--muted); }
   .guide-note { margin-top: 1.1rem; color: var(--muted); font-size: .9rem; }
   .footer { color: #f5efdf; background: var(--deep); border-top: 4px solid var(--red); }
   .footer .shell { padding-block: 1rem; flex-wrap: wrap; }
+  .footer-links { display: flex; flex-wrap: wrap; gap: .35rem 1.4rem; }
   .footer a { color: #ffb487; }
   @media (max-width: 840px) {
     .shell { width: min(100% - 40px, 1180px); }
     .program-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 710px) {
+    .masthead .shell { grid-template-columns: minmax(0, 1fr) auto; padding-block: .55rem .75rem; }
+    .masthead nav { grid-area: 2 / 1 / 3 / -1; justify-content: flex-start; }
+    .theme-toggle { grid-area: 1 / 2; }
   }
   @media (max-width: 650px) {
     .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 1.65rem; }
@@ -330,7 +801,6 @@
   }
   @media (max-width: 390px) {
     .shell { width: calc(100% - 28px); }
-    .masthead .shell { align-items: flex-start; flex-direction: column; padding-block: .65rem; }
     .channel-number { display: block; margin: 0; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
@@ -343,8 +813,10 @@
     <div class="station"><span class="station-mark" aria-hidden="true">321</span> ART FORT 321</div>
     <nav aria-label="Main navigation" class="mono">
       <a href="#auction-guide">Auction guide</a>
-      <a href="https://www.ebay.com/usr/monkism">Monkism on eBay</a>
+      <a class="seller-link" href="https://www.ebay.com/usr/monkism">Monkism on eBay</a>
+      <a href="https://www.3-2-1.shop/auctions">Back to 3-2-1 Shop</a>
     </nav>
+    <button id="theme-toggle" class="theme-toggle mono" type="button" aria-pressed="false" hidden><span aria-hidden="true">☾</span>Night mode</button>
   </div>
 </header>
 <main>
@@ -382,7 +854,10 @@
       <button class="channel mono" type="button" data-channel="archive" aria-pressed="false"><span class="channel-number" aria-hidden="true">02</span>Archive</button>
     </div>
     <div class="guide-tools" hidden>
-      <p class="count mono" id="count" role="status"></p>
+      <div>
+        <p class="count mono" id="count" role="status"></p>
+        <p class="lineup-checked" hidden>Lineup checked <time id="lineup-checked"></time></p>
+      </div>
       <div class="selects">
         <label for="category"><span class="mono">Category</span><select id="category"><option value="">All categories</option></select></label>
         <label for="sort"><span class="mono">Sort</span><select id="sort"><option value="soon">Ending soonest</option><option value="guide">Guide order</option><option value="low">Price low to high</option><option value="high">Price high to low</option><option value="title">Title A–Z</option></select></label>
@@ -399,7 +874,10 @@
   </section>
 </main>
 <footer class="footer dark">
-  <div class="shell"><p class="mono">ART FORT 321 · Auction House</p><a href="https://www.ebay.com/usr/monkism">Visit Monkism on eBay</a></div>
+  <div class="shell">
+    <p class="mono">ART FORT 321 · Auction House</p>
+    <div class="footer-links"><a href="https://www.3-2-1.shop/auctions">Back to 3-2-1 Shop</a><a href="https://www.ebay.com/usr/monkism">Visit Monkism on eBay</a></div>
+  </div>
 </footer>
 
 <template id="program-template">
@@ -437,6 +915,17 @@
   const statuses = { active: 'On air', ending: 'Ending soon', ended: 'Ended', sold: 'Sold', unknown: 'Check eBay' };
   const day = 24 * 60 * 60 * 1000;
   let channel = 'all';
+
+  const themeToggle = $('#theme-toggle');
+  const page = document.documentElement;
+  themeToggle.setAttribute('aria-pressed', String(page.dataset.theme === 'night'));
+  themeToggle.hidden = false;
+  themeToggle.addEventListener('click', () => {
+    const theme = page.dataset.theme === 'night' ? 'day' : 'night';
+    page.dataset.theme = theme;
+    themeToggle.setAttribute('aria-pressed', String(theme === 'night'));
+    try { localStorage.setItem('art-fort-auction-theme', theme); } catch { /* Keep the theme for this visit. */ }
+  });
 
   function itemUrl(value) {
     if (typeof value !== 'string') return null;
@@ -593,6 +1082,13 @@
 
   try {
     const listings = readListings();
+    const checkedAt = endTime(source.dataset.checkedAt);
+    if (checkedAt !== null) {
+      const checkTime = $('#lineup-checked');
+      checkTime.dateTime = new Date(checkedAt).toISOString();
+      checkTime.textContent = dateFormat.format(checkedAt);
+      checkTime.parentElement.hidden = false;
+    }
     const categories = [...new Set(listings.map(listing => listing.category).filter(Boolean))].sort(collator.compare);
     for (const name of categories) category.add(new Option(name, name));
     for (const button of channels) {
